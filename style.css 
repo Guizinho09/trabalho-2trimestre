@@ -6,8 +6,7 @@
     --cor-texto: #D7F9FF;
 
 }
-
-body {
+.body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
@@ -24,11 +23,11 @@ body {
     padding: 20px;
 }
 
-h1{
+.h1{
     color: var(--cor-destaque);
 }
 
-button {
+.button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
@@ -37,7 +36,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover{
+.button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
